@@ -7,5 +7,4 @@ pandas==2.3
 pandas-stubs==3.0.0.260204
 pathlib==1.0.1
 pillow==12.1.0
-plotly==6.5.2
 streamlit==1.55.0
