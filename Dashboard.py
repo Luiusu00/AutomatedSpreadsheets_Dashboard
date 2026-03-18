@@ -23,7 +23,7 @@ try:
     }
 
 
-    st.title(':blue[Dashboard Universidades]')
+    st.title(':blue[Dashboard Universidades]', text_alignment='center')
     container = st.container(horizontal=True, horizontal_alignment='center', vertical_alignment='bottom', height=100, border=False, gap='large')
     option_ano = container.selectbox('Anos Disponíveis:', anos, width=250)
     option_mes = container.selectbox('Meses Disponíveis:', meses.keys(), width=250)
